@@ -23,4 +23,5 @@ MFN company connects freight forwarders of the Kingdom of Morocco with a wide ra
 
 | Image 1 | Image 2 | Image 3 | Image 4 |
 |---------|---------|---------|---------|
-| ![Group1](./mobile/assets/screens/1.png) | ![Group2](./mobile/assets/screens/2.png) | ![Group3](./mobile/assets/screens/3.png) | ![Group4](./mobile/assets/screens/4.png) | ![Group5](./mobile/assets/screens/5.png) | ![Group6](./mobile/assets/screens/6.png) | ![Group7](./mobile/assets/screens/7.png) | ![Group8](./mobile/assets/screens/8.png) |
+| ![Group1](./mobile/assets/screens/1.png) | ![Group2](./mobile/assets/screens/2.png) | ![Group3](./mobile/assets/screens/3.png) | ![Group4](./mobile/assets/screens/4.png) |
+| ![Group5](./mobile/assets/screens/5.png) | ![Group6](./mobile/assets/screens/6.png) | ![Group7](./mobile/assets/screens/7.png) | ![Group8](./mobile/assets/screens/8.png) |
