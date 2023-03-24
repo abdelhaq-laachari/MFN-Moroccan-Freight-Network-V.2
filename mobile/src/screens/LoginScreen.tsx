@@ -34,17 +34,15 @@ export default function LoginScreen({
   };
 
   const apiUrl = Constants?.manifest?.extra?.apiUrl;
-  
+
   const handleLogin = async () => {
     try {
       const response = await axios.post(`${apiUrl}/company/login`, {
         email: formData.email,
         password: formData.password,
       });
-      // console.log(response.data);
-      navigation.navigate("HomeScreen");
-    }
-    catch (error) {
+      navigation.navigate("Nav");
+    } catch (error) {
       console.log(error);
     }
   };
@@ -106,7 +104,10 @@ export default function LoginScreen({
           <View style={styles.line}></View>
         </View>
         <View style={styles.guestButtonContainer}>
-          <TouchableOpacity style={styles.guestButton}>
+          <TouchableOpacity
+            style={styles.guestButton}
+            onPress={() => navigation.navigate("HomeScreen")}
+          >
             <Text style={styles.buttonText}>Continue as a guest</Text>
           </TouchableOpacity>
         </View>

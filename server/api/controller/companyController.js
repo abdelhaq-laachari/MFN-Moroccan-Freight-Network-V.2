@@ -106,8 +106,11 @@ const login = asyncHandler(async (req, res) => {
 // @route   GET /allUsers
 // @access  Private
 
-const getCompanies = asyncHandler(async (req, res) => {
-  const company = await Company.find({});
+const getAllCompanies = asyncHandler(async (req, res) => {
+  const company = await Company.find(
+    {},
+    { password: 0, token: 0, __v: 0, password2: 0 }
+  );
   res.json(company);
 });
 
@@ -121,5 +124,5 @@ const generateToken = (id) => {
 module.exports = {
   register,
   login,
-  getCompanies,
+  getAllCompanies,
 };

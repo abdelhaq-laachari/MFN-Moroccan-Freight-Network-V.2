@@ -1,12 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import BottomNavigation from '../components/BottomNavigation';
-import Map from '../components/Map';
+import { StatusBar } from "expo-status-bar";
+import { Dimensions, StyleSheet, Text, View } from "react-native";
+import MapView from "react-native-maps";
+import Marker from "../components/MapMarker";
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <BottomNavigation/>
+      <View>
+        <Marker />
+      </View>
       <StatusBar style="auto" />
     </View>
   );
@@ -15,8 +17,8 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

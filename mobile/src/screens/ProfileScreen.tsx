@@ -1,7 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import BottomNavigation from '../components/BottomNavigation';
-import Map from '../components/Map';
 
 export default function HomeScreen() {
   return (
